@@ -81,14 +81,14 @@ class TodoList extends React.Component {
 
         <h1>{user && user.name()}</h1>
         <img
-               className="ui centered medium rounded image"
+               className="ui centered medium rounded "
                style={{
                 resizeMode:  "contain",
                 height: 150,
                 width: 150
               }}
                 src={user && user.avatarUrl()}
-               alt="user profile image "
+               alt="user profile "
         />
 
         <h2>My Todos</h2>
